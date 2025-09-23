@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)http://localhost:3000/TWDPILAfinal4-3-25/index.php?page=display&id=6 -->
+<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title> TWD Transaction Queuing System</title>
+ 	
+
+<meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  
+
+  <!-- Google Fonts -->
+  <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><link href="./twd_queuing_number_files/css" rel="stylesheet">
+    <link rel="stylesheet" href="./twd_queuing_number_files/all.min.css">
+
+
+  <!-- Vendor CSS Files -->
+  <link href="./twd_queuing_number_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./twd_queuing_number_files/icofont.min.css" rel="stylesheet">
+  <link href="./twd_queuing_number_files/boxicons.min.css" rel="stylesheet">
+  <link href="./twd_queuing_number_files/venobox.css" rel="stylesheet">
+  <link href="./twd_queuing_number_files/animate.min.css" rel="stylesheet">
+  <link href="./twd_queuing_number_files/remixicon.css" rel="stylesheet">
+  <link href="./twd_queuing_number_files/owl.carousel.min.css" rel="stylesheet">
+  <link href="./twd_queuing_number_files/bootstrap-datepicker.min.css" rel="stylesheet">
+  <link href="./twd_queuing_number_files/datatables.min.css" rel="stylesheet">
+  <link href="./twd_queuing_number_files/jquery.datetimepicker.min.css" rel="stylesheet">
+  <link href="./twd_queuing_number_files/select2.min.css" rel="stylesheet">
+
+
+  <!-- Template Main CSS File -->
+  <link href="./twd_queuing_number_files/style.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./twd_queuing_number_files/jquery-te-1.4.0.css">
+  
+  <script src="./twd_queuing_number_files/jquery.min.js.download"></script>
+  <script src="./twd_queuing_number_files/datatables.min.js.download"></script>
+  <script src="./twd_queuing_number_files/bootstrap.bundle.min.js.download"></script>
+  <script src="./twd_queuing_number_files/jquery.easing.min.js.download"></script>
+  <script src="./twd_queuing_number_files/validate.js.download"></script>
+  <script src="./twd_queuing_number_files/venobox.min.js.download"></script>
+  <script src="./twd_queuing_number_files/jquery.waypoints.min.js.download"></script>
+  <script src="./twd_queuing_number_files/counterup.min.js.download"></script>
+  <script src="./twd_queuing_number_files/owl.carousel.min.js.download"></script>
+  <script src="./twd_queuing_number_files/bootstrap-datepicker.min.js.download"></script>
+    <script type="text/javascript" src="./twd_queuing_number_files/select2.min.js.download"></script>
+    <script type="text/javascript" src="./twd_queuing_number_files/jquery.datetimepicker.full.min.js.download"></script>
+    <script type="text/javascript" src="./twd_queuing_number_files/all.min.js.download"></script>
+  <script type="text/javascript" src="./twd_queuing_number_files/jquery-te-1.4.0.min.js.download" charset="utf-8"></script>
+
+
+
+
+<style>
+	body {
+    background-image: url(clientbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Make sure the image covers the entire area */
+    background-attachment: fixed; /* Keep the background fixed */
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(clientbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Make sure the image covers the entire area */
+    background-attachment: fixed; /* Keep the background fixed */
+    filter: blur(7px); /* Adjusted for a softer blur effect */
+    z-index: -1; /* Place behind other content */
+}
+  .modal-dialog.large {
+    width: 80% !important;
+    max-width: unset;
+  }
+  .modal-dialog.mid-large {
+    width: 50% !important;
+    max-width: unset;
+  }
+  #viewer_modal .btn-close {
+    position: absolute;
+    z-index: 999999;
+    right: -4.5em;
+    background: unset;
+    color: white;
+    border: unset;
+    font-size: 27px;
+    top: 0;
+}
+#viewer_modal .modal-dialog {
+        width: 80%;
+    max-width: unset;
+    height: calc(90%);
+    max-height: unset;
+}
+  #viewer_modal .modal-content {
+       background: black;
+    border: unset;
+    height: calc(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #viewer_modal img,#viewer_modal video{
+    max-height: calc(100%);
+    max-width: calc(100%);
+  }
+
+  .top-right {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.top-right .btn {
+  padding: 8px 18px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+</style></head>
+
+
+<body>
+  <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body text-white">
+    </div>
+  </div>
+
+
+  
+  <main id="" class="mt-4 mb-4">
+  	     <style>
+    /* Existing styles */
+    .left-side {
+        position: absolute;
+        width: 90%;
+        height: 95%;
+        left: 0;
+        top: 0;
+        background: transparent;
+        display: fixed;	
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+        overflow-y: hidden; /* Removed scrollbar */
+    }
+
+    .right-side {
+        position: absolute;
+        width: 37%;
+        height: 100%;
+        right: 0;
+        top: 0;
+		background-color: rgb(0, 51, 102); /* White with 20% opacity */
+    }
+
+    .transaction-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 119, 255, 0.99);
+        width: 100%;
+        max-width: 350px;
+        margin: 10px;
+        overflow: hidden;
+    }
+
+    .transaction-card .card-header {
+        background-color:rgba(1, 137, 215, 0.68);
+        color: white;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .transaction-card .card-body {
+        padding: 1px;
+    }
+
+    .transaction-card .card-body h4,
+    .transaction-card .card-body h3,
+    .transaction-card .card-body h5 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgba(59, 59, 62, 0.92);
+    }
+
+    /* .transaction-card .divider {
+        width: 10%;
+        margin: 5px auto;
+        height: 1px;
+        background: black;
+    } */
+
+    .transaction-card .card-body h4 {
+        color: red;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+	.card-body{
+		background-color: rgba(255, 0, 0, 0); /* White with 20% opacity */
+		width: max-content;
+	}
+
+
+    .slideShow img,
+    .slideShow video {
+        max-width: 100%;
+        max-height: 100%;
+        opacity: 0;
+        transition: all .5s ease-in-out;
+    }
+
+    .slideShow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: calc(100%);
+        height: calc(100%);
+        padding: auto;
+    }
+
+    a.btn.btn-sm {
+    z-index: 99999;
+    position: fixed;
+    left: 2rem;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+}
+
+a.btn.btn-sm:hover {
+    color: #fff; /* Change text color on hover */
+    background-color: rgba(0, 255, 0, 0.3); /* Light green background on hover */
+    box-shadow: 0px 4px 15px rgba(0, 255, 0, 0.6); /* Glow effect around the button */
+}
+
+
+    /* New CSS for Grid Layout of 'Now Serving' rows */
+    .transaction-row {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr); /* 3 cards per row */
+        gap: 3px; /* Space between cards */
+        width: 100%;
+		margin: auto;
+    }
+
+    .transaction-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    hr.solid {
+  border-top: 2px solid  rgba(128, 138, 143, 0.78);
+}
+
+#timeDisplay {
+    position: fixed; 
+    text-align: center;
+    color: rgb(0, 170, 255); 
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 20px;
+    background-color: rgba(0, 21, 255, 0); 
+    padding: 0px;
+    border-radius: 0px; 
+    width: 38%;
+    font-family: 'Arial', sans-serif;
+    bottom: 50px;  
+    left: 82%;     
+    transform: translateX(-50%); 
+    z-index: 0; /* 9999 kung gusto mo ibutang sa tubangan*/
+    letter-spacing: 1px;
+}
+
+#currentTime {
+    font-size: 60px; /* Set a larger font size for the time */
+    font-style: italic;
+}
+
+#currentDate {
+    font-size: 20px; /* Set a smaller font size for the date */
+    display: block; /* Ensure it stays on a new line */
+}
+
+
+
+
+.logo-container {
+    width: 200px; /* Adjust width of the container */
+    height: auto; /* Let height adjust automatically */
+    text-align: center; /* Center align the logo */
+    margin: 20px auto; /* Adds space around the container */
+    position: absolute; /* Make the logo container absolute */
+    top: -18px; /* Distance from the top of the viewport */
+    right: 370px; /* Distance from the left of the viewport */
+    z-index: 9999; /* Ensures the logo stays on top of other content */
+}
+
+/* Logo styling */
+.logo {
+    width: 200%; /* Make the logo responsive to the container's width */
+    max-width: 260px; /* Limit the maximum width of the logo */
+    height: auto; /* Let the height adjust based on the aspect ratio */
+}
+
+
+
+.text-display {
+    position: fixed; 
+    text-align: center;
+    color: rgb(0, 179, 255); 
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 20px;
+    background-color: rgba(0, 21, 255, 0); 
+    padding: 0px;
+    border-radius: 0px; 
+    width: 38%;
+    font-family: 'Arial', sans-serif;
+    top: -60px;  
+    right: -380px;     
+    transform: translateX(-50%); 
+    z-index: 9999; /* 9999 kung gusto mo ibutang sa tubangan*/
+    letter-spacing: 1px;
+    text-shadow: 7px 2px rgba(19, 19, 19, 0.64);
+}
+
+
+
+
+</style>
+
+
+<a href="C:\Users\JON\Desktop\PORTFOLIO\TWD\twd_queuing_main.html" class="btn btn-sm "><svg class="svg-inline--fa fa-arrow-left fa-w-14" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg><!-- <i class="fa fa-arrow-left"></i> --> Go Back</a>
+
+<div class="left-side">
+    <div class="col-md-10 offset-md-1">
+        <div class="card-body">
+            <div class="container-fluid">
+
+                <!-- Wrap the transactions in rows -->
+                <div class="transaction-row">
+                                        <div class="transaction-card">
+                        <div class="card-header">
+                            BILLING PAYMENT                        </div>
+                        <div class="card-body">
+                            <h4 class="text-center text-dark"><b>Now Serving</b></h4>
+                            <hr class="solid">
+                            <h3 id="sname_6"></h3>
+                            <hr class="solid">
+                            <h4 id="squeue_6"></h4>
+                            <hr class="solid">
+                            <h5 id="window_6"></h5>
+                        </div>
+                    </div>
+                                        <div class="transaction-card">
+                        <div class="card-header">
+                            WATER-RELATED CONCERNS:                        </div>
+                        <div class="card-body">
+                            <h4 class="text-center text-dark"><b>Now Serving</b></h4>
+                            <hr class="solid">
+                            <h3 id="sname_7"></h3>
+                            <hr class="solid">
+                            <h4 id="squeue_7"></h4>
+                            <hr class="solid">
+                            <h5 id="window_7"></h5>
+                        </div>
+                    </div>
+                                        <div class="transaction-card">
+                        <div class="card-header">
+                            NEW SERVICE CONNECTION:                        </div>
+                        <div class="card-body">
+                            <h4 class="text-center text-dark"><b>Now Serving</b></h4>
+                            <hr class="solid">
+                            <h3 id="sname_8"></h3>
+                            <hr class="solid">
+                            <h4 id="squeue_8"></h4>
+                            <hr class="solid">
+                            <h5 id="window_8"></h5>
+                        </div>
+                    </div>
+                                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="right-side">   
+        <div class="slideShow"><img id="slide" src="http://localhost:3000/TWDPILAfinal4-3-25/admin/assets/uploads/1758012060_splashing-165192_1280-7879d2914dfb4e5d8dbf2e943669bd92.jpg" onload="slideInterval(2)" style="opacity: 1;"></div>
+</div>
+
+<div id="timeDisplay">
+<span id="currentTime">2:10:19 PM</span>
+<span id="currentDate">September 23, 2025</span></div>
+
+
+<!-- <div class="logo-container">
+    <img src="logotwd.png" alt="Logo" class="logo">
+</div> -->
+
+
+<div><h3 class="text-display"><br>Queuing<br>Display</h3></div>
+
+
+<script>
+    var slides = ["1758012060_water-update.jpg","1758012060_splashing-165192_1280-7879d2914dfb4e5d8dbf2e943669bd92.jpg","1758012060_logotwd.png"];
+    var scount = slides.length;
+    if (scount > 0) {
+        $(document).ready(function() {
+            render_slides(0);
+        });
+    }
+
+    function render_slides(k) {
+        if (k >= scount) k = 0;
+        var src = slides[k];
+        k++;
+        var t = src.split('.');
+        var file;
+        t = t[1];
+        if (t == 'mp4') {
+            file = $("<video id='slide' src='admin/assets/uploads/" + src + "' onended='render_slides(" + k + ")' autoplay='true' muted='muted'></video>");
+        } else {
+            file = $("<img id='slide' src='admin/assets/uploads/" + src + "' onload='slideInterval(" + k + ")' />");
+        }
+        console.log(file);
+        if ($('#slide').length > 0) {
+            $('#slide').css({ "opacity": 0 });
+            setTimeout(function() {
+                $('.slideShow').html('');
+                $('.slideShow').append(file);
+                $('#slide').css({ "opacity": 1 });
+                if (t == 'mp4') $('video').trigger('play');
+            }, 500);
+        } else {
+            $('.slideShow').append(file);
+            $('#slide').css({ "opacity": 1 });
+        }
+    }
+
+    function slideInterval(i = 0) {
+        setTimeout(function() {
+            render_slides(i);
+        }, 2500);
+    }
+
+    // Fetch queue data for each transaction every 1.5 seconds
+    $(document).ready(function() {
+        var renderServe = setInterval(function() {
+                        $.ajax({
+                url: 'admin/ajax.php?action=get_queue',
+                method: "POST",
+                data: { id: '6' },
+                success: function(resp) {
+                    resp = JSON.parse(resp);
+                    if (resp.status == 1) {
+                        $('#sname_6').html(resp.data.name);
+                        $('#squeue_6').html(resp.data.queue_no);
+                        $('#window_6').html(resp.data.wname);
+                    }
+                }
+            });
+                        $.ajax({
+                url: 'admin/ajax.php?action=get_queue',
+                method: "POST",
+                data: { id: '7' },
+                success: function(resp) {
+                    resp = JSON.parse(resp);
+                    if (resp.status == 1) {
+                        $('#sname_7').html(resp.data.name);
+                        $('#squeue_7').html(resp.data.queue_no);
+                        $('#window_7').html(resp.data.wname);
+                    }
+                }
+            });
+                        $.ajax({
+                url: 'admin/ajax.php?action=get_queue',
+                method: "POST",
+                data: { id: '8' },
+                success: function(resp) {
+                    resp = JSON.parse(resp);
+                    if (resp.status == 1) {
+                        $('#sname_8').html(resp.data.name);
+                        $('#squeue_8').html(resp.data.queue_no);
+                        $('#window_8').html(resp.data.wname);
+                    }
+                }
+            });
+                    }, 1500);
+    });
+
+    function updateTime() {
+    var now = new Date();
+    
+    // Get hours, minutes, and seconds for time
+    var hours = now.getHours();
+    var minutes = now.getMinutes().toString().padStart(2, '0');
+    var seconds = now.getSeconds().toString().padStart(2, '0');
+    
+    // Determine AM/PM
+    var ampm = hours >= 12 ? 'PM' : 'AM';
+    
+    // Convert 24-hour time to 12-hour time
+    hours = hours % 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
+    
+    // Get day, month, and year for date
+    var day = now.getDate();
+    var month = now.toLocaleString('default', { month: 'long' }); // Full month name
+    var year = now.getFullYear();
+
+    // Format the time and date
+    var timeString = hours + ':' + minutes + ':' + seconds + ' ' + ampm;
+    var dateString = month + ' ' + day + ', ' + year;
+
+    // Update the HTML with the date and time
+    document.getElementById('currentDate').innerHTML = dateString;
+    document.getElementById('currentTime').innerHTML = timeString;
+}
+
+// Update the time every second
+setInterval(updateTime, 1000);
+updateTime(); // Call once immediately to display the time without waiting
+
+
+
+
+
+</script>
+  </main>
+  
+  <a href="http://localhost:3000/TWDPILAfinal4-3-25/index.php?page=display&amp;id=6#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+<div class="modal fade" id="confirm_modal" role="dialog">
+    <div class="modal-dialog modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title">Confirmation</h5>
+      </div>
+      <div class="modal-body">
+        <div id="delete_content"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="confirm" onclick="">Continue</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="uni_modal" role="dialog">
+    <div class="modal-dialog modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title"></h5>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="submit" onclick="$(&#39;#uni_modal form&#39;).submit()">Save</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="viewer_modal" role="dialog">
+    <div class="modal-dialog modal-md" role="document">
+      <div class="modal-content">
+              <button type="button" class="btn-close" data-dismiss="modal"><svg class="svg-inline--fa fa-times fa-w-11" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" data-fa-i2svg=""><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg><!-- <span class="fa fa-times"></span> --></button>
+              <img src="http://localhost:3000/TWDPILAfinal4-3-25/index.php?page=display&amp;id=6" alt="">
+      </div>
+    </div>
+  </div>
+
+<script>
+	 window.start_load = function(){
+    $('body').prepend('<di id="preloader2"></di>')
+  }
+  window.end_load = function(){
+    $('#preloader2').fadeOut('fast', function() {
+        $(this).remove();
+      })
+  }
+ window.viewer_modal = function($src = ''){
+    start_load()
+    var t = $src.split('.')
+    t = t[1]
+    if(t =='mp4'){
+      var view = $("<video src='assets/uploads/"+$src+"' controls autoplay></video>")
+    }else{
+      var view = $("<img src='assets/uploads/"+$src+"' />")
+    }
+    $('#viewer_modal .modal-content video,#viewer_modal .modal-content img').remove()
+    $('#viewer_modal .modal-content').append(view)
+    $('#viewer_modal').modal({
+                  show:true,
+                  backdrop:'static',
+                  keyboard:false,
+                  focus:true
+                })
+                end_load()  
+
+}
+  window.uni_modal = function($title = '' , $url='',$size=""){
+    start_load()
+    $.ajax({
+        url:$url,
+        error:err=>{
+            console.log()
+            alert("An error occured")
+        },
+        success:function(resp){
+            if(resp){
+                $('#uni_modal .modal-title').html($title)
+                $('#uni_modal .modal-body').html(resp)
+                if($size != ''){
+                    $('#uni_modal .modal-dialog').addClass($size)
+                }else{
+                    $('#uni_modal .modal-dialog').removeAttr("class").addClass("modal-dialog modal-md")
+                }
+                $('#uni_modal').modal({
+                  show:true,
+                  backdrop:'static',
+                  keyboard:false,
+                  focus:true
+                })
+                end_load()
+            }
+        }
+    })
+}
+window._conf = function($msg='',$func='',$params = []){
+     $('#confirm_modal #confirm').attr('onclick',$func+"("+$params.join(',')+")")
+     $('#confirm_modal .modal-body').html($msg)
+     $('#confirm_modal').modal('show')
+  }
+   window.alert_toast= function($msg = 'TEST',$bg = 'success'){
+      $('#alert_toast').removeClass('bg-success')
+      $('#alert_toast').removeClass('bg-danger')
+      $('#alert_toast').removeClass('bg-info')
+      $('#alert_toast').removeClass('bg-warning')
+
+    if($bg == 'success')
+      $('#alert_toast').addClass('bg-success')
+    if($bg == 'danger')
+      $('#alert_toast').addClass('bg-danger')
+    if($bg == 'info')
+      $('#alert_toast').addClass('bg-info')
+    if($bg == 'warning')
+      $('#alert_toast').addClass('bg-warning')
+    $('#alert_toast .toast-body').html($msg)
+    $('#alert_toast').toast({delay:3000}).toast('show');
+  }
+  $(document).ready(function(){
+    $('#preloader').fadeOut('fast', function() {
+        $(this).remove();
+      })
+  })
+  $('.datetimepicker').datetimepicker({
+      format:'Y/m/d H:i',
+      startDate: '+3d'
+  })
+  $('.select2').select2({
+    placeholder:"Please select here",
+    width: "100%"
+  })
+</script>	
+</body></html>
