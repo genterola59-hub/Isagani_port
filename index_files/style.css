@@ -28,6 +28,16 @@
       transform: translateX(-50%); width: 80px; height: 4px;
       background: var(--primary-color);
     }
+    section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-in-out;
+}
+section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
     /* HEADER */
     header {
@@ -294,4 +304,18 @@
 
 .seminar-photo img:hover {
   transform: scale(1.05);
+}
+.tech-stack .tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+.tech-stack .tech-item img {
+  width: 50px;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+.tech-stack .tech-item img:hover {
+  transform: scale(1.2);
 }
