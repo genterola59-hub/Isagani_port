@@ -37,8 +37,6 @@ section.show {
   opacity: 1;
   transform: translateY(0);
 }
-
-
     /* HEADER */
     header {
       background: white; box-shadow: 0 2px 10px rgba(0,0,0,.1);
