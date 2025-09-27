@@ -3,24 +3,28 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Isagani Genterola - Front-End Developer</title>
-<link rel="stylesheet" href="./index_files/style.css">
+  <title>Isagani Genterola - Front-End Developer &amp; Full-Stack Specialist</title>
+  <link rel="stylesheet" href="./index_files/style.css">
   <link rel="stylesheet" href="./index_files/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="./index_files/css2" rel="stylesheet">
+  
 </head>
 <body>
   <!-- Header -->
-  <header>
+  <header id="header" class="">
     <div class="container">
       <nav>
-        <a href="#" class="logo">Isagani<span>Genterola</span></a>
+        <a href="http://localhost:3000/Index.php#" class="logo">
+          <i class="fas fa-code me-2"></i>Isagani<span>Genterola</span>
+        </a>
         <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#certificates">Certificates</a></li>
-          <li><a href="#seminars">Seminars</a></li>
-          <li><a href="#Resume">Resume</li>
+          <li><a href="http://localhost:3000/Index.php#home" class="active">Home</a></li>
+          <li><a href="http://localhost:3000/Index.php#about" class="">About</a></li>
+          <li><a href="http://localhost:3000/Index.php#projects" class="">Projects</a></li>
+          <li><a href="http://localhost:3000/Index.php#certificates" class="">Certificates</a></li>
+          <li><a href="http://localhost:3000/Index.php#seminars" class="">Seminars</a></li>
+          <li><a href="http://localhost:3000/Index.php#resume" class="">Resume</a></li>
+          <li><a href="http://localhost:3000/Index.php#techstack" class="">Tech Stack</a></li>
         </ul>
         <div class="menu-toggle" id="menu-toggle">
           <span></span><span></span><span></span>
@@ -28,12 +32,13 @@
       </nav>
       <!-- Mobile Nav -->
       <ul class="nav-links mobile" id="mobile-nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certificates">Certificates</a></li>
-        <li><a href="#seminars">Seminars</a></li>
-        <li><a href="#Resume">Resume</a></li>
+        <li><a href="http://localhost:3000/Index.php#home" class="active">Home</a></li>
+        <li><a href="http://localhost:3000/Index.php#about" class="">About</a></li>
+        <li><a href="http://localhost:3000/Index.php#projects" class="">Projects</a></li>
+        <li><a href="http://localhost:3000/Index.php#certificates" class="">Certificates</a></li>
+        <li><a href="http://localhost:3000/Index.php#seminars" class="">Seminars</a></li>
+        <li><a href="http://localhost:3000/Index.php#resume" class="">Resume</a></li>
+        <li><a href="http://localhost:3000/Index.php#techstack" class="">Tech Stack</a></li>
       </ul>
     </div>
   </header>
@@ -44,8 +49,11 @@
       <div class="hero-content">
         <div class="hero-text">
           <h1>Junior Front-End Developer Specializing in UI Development and Performance Optimization</h1>
-          <p>I create beautiful, functional websites with a focus on user experience and clean code.</p>
-          <a href="http://localhost:3000/Index.php#projects" class="btn">View My Work</a>
+          <p>I create beautiful, functional websites and applications with a focus on user experience, clean code, and modern technologies.</p>
+          <div class="hero-buttons">
+            <a href="http://localhost:3000/Index.php#projects" class="btn">View My Work</a>
+            <a href="http://localhost:3000/Index.php#resume" class="btn btn-outline">Download Resume</a>
+          </div>
         </div>
         <div class="hero-image">
           <img src="./index_files/grad_pic.jpg" alt="Isagani Genterola">
@@ -56,324 +64,408 @@
 
   <!-- About -->
   <section id="about" class="about show">
-  <div class="container">
-    <h2 class="section-title">About Me</h2>
-    <div class="about-content">
-      <div class="about-text">
-        <h3>Hello! I'm Isagani Genterola</h3>
-        <p>Hi, I’m Isagani Genterola, a passionate Web Developer with strong experience in both front-end and back-end development. I specialize in creating functional, user-friendly, and responsive web systems that solve real-world problems.</p>
-        <br>
-        <p>I have solid skills in HTML, CSS, JavaScript, PHP, and MySQL, with experience building complete systems from the database to the user interface. On the front end, I focus on delivering clean, professional, and responsive designs. On the back end, I ensure smooth data flow and secure functionality.</p>
-        <br>
-        <p>Beyond coding, I have a background in technical support, networking (NC II certified), and hardware troubleshooting, which gives me a unique perspective in developing reliable and efficient systems. I also have knowledge in graphic design and layout creation using Adobe Illustrator, Canva, and Photoshop, allowing me to blend functionality with creative visuals.</p>
-        <br>
-        <p>I’m always eager to learn new technologies and take on challenges that push me to grow as a developer.</p>
-      </div>
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Passionate developer with expertise in both front-end and back-end technologies</p>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Hello! I'm Isagani Genterola</h3>
+          <p>I'm a passionate Web Developer with strong experience in both front-end and back-end development. I specialize in creating functional, user-friendly, and responsive web systems that solve real-world problems.</p>
+          <p>I have solid skills in HTML, CSS, JavaScript, PHP, and MySQL, with experience building complete systems from the database to the user interface. On the front end, I focus on delivering clean, professional, and responsive designs. On the back end, I ensure smooth data flow and secure functionality.</p>
+          <p>Beyond coding, I have a background in technical support, networking (NC II certified), and hardware troubleshooting, which gives me a unique perspective in developing reliable and efficient systems. I also have knowledge in graphic design and layout creation using Adobe Illustrator, Canva, and Photoshop, allowing me to blend functionality with creative visuals.</p>
+          <p>I'm always eager to learn new technologies and take on challenges that push me to grow as a developer.</p>
+        </div>
 
-      <!-- Skills Section -->
-      <div class="skills">
-  <h3 class="skills-title">Skills</h3>
+        <!-- Skills Section -->
+        <div class="skills">
+          <h3 class="skills-title">Technical Skills</h3>
 
-  <div class="skill-item">
-    <div class="skill-info"><span>HTML/CSS</span><span>75%</span></div>
-    <div class="skill-bar">
-      <div class="skill-progress" style="--target-width:75%"></div>
-    </div>
-  </div>
-
-  <div class="skill-item">
-    <div class="skill-info"><span>JavaScript</span><span>40%</span></div>
-    <div class="skill-bar">
-      <div class="skill-progress" style="--target-width:40%"></div>
-    </div>
-  </div>
-
-  <div class="skill-item">
-    <div class="skill-info"><span>Basic Debugging</span><span>60%</span></div>
-    <div class="skill-bar">
-      <div class="skill-progress" style="--target-width:60%"></div>
-    </div>
-  </div>
-
-  <div class="skill-item">
-    <div class="skill-info"><span>Laravel</span><span>50%</span></div>
-    <div class="skill-bar">
-      <div class="skill-progress" style="--target-width:50%"></div>
-    </div>
-  </div>
-
-  <!-- Soft Skills -->
-  <h3 class="skills-title">Soft Skills</h3>
-
-  <div class="skill-item">
-    <div class="skill-info"><span>Problem-Solving</span><span>80%</span></div>
-    <div class="skill-bar">
-      <div class="skill-progress" style="--target-width:80%"></div>
-    </div>
-  </div>
-
-  <div class="skill-item">
-    <div class="skill-info"><span>Good communication &amp; teamwork</span><span>95%</span></div>
-    <div class="skill-bar">
-      <div class="skill-progress" style="--target-width:95%"></div>
-    </div>
-  </div>
-
-  <div class="skill-item">
-    <div class="skill-info"><span>Willingness to learn</span><span>100%</span></div>
-    <div class="skill-bar">
-      <div class="skill-progress" style="--target-width:100%"></div>
-    </div>
-  </div>
-
-  <div class="skill-item">
-    <div class="skill-info"><span>Adaptability</span><span>90%</span></div>
-    <div class="skill-bar">
-      <div class="skill-progress" style="--target-width:90%"></div>
-    </div>
-  </div>
-</div>
-
-    </div>
-  </div>
-</section>
-  <!-- Projects -->
-    <section id="projects" class="projects show">
-        <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="./index_files/logotwd.png" alt="E-Commerce Project">
-                    </div>
-                    <div class="project-info">
-                        <h3>Tupi Water District Queing System</h3>
-                        <p>A fully responsive Queuing System platform Prioritizing PWD/Pregnant customer</p>
-                        <div class="project-tags">
-                            <span class="project-tag">HTML</span>
-                            <span class="project-tag">CSS</span>
-                            <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">PHP</span>
-                        </div>
-                        <a href="\Isagani_port\TWD\twd_queuing_main.html" class="btn">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="./index_files/Logistics.jpeg" alt="Courier Management System">
-                    </div>
-                    <div class="project-info">
-                        <h3>Courier Management System</h3>
-                        <p>A responsive web application for Parcel Tracker system, Track Your Parcel Anytime, Anywhere!.</p>
-                       <div class="project-tags">
-                            <span class="project-tag">HTML</span>
-                            <span class="project-tag">CSS</span>
-                            <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">Bootstrap</span>
-                            <span class="project-tag">PHP</span>
-                        </div>
-                        <a href="\Isagani_port\CMS\CMS_dashboard.html" class="btn">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class=" project-info"=""> 
-                        <h3>Product Management Dashboard</h3>
-                        <p>A dashboard for managing product inventory, sales analytics, and customer data with interactive charts.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Vue.js</span>
-                            <span class="project-tag">Firebase</span>
-                            <span class="project-tag">Chart.js</span>
-                        </div>
-                        <a href="http://localhost:3000/Index.php#" class="btn">View Project</a>
-                    </div>
-                </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>HTML/CSS</span><span>75%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--target-width:75%"></div>
             </div>
-        </div>
-        
-    </section>
+          </div>
 
+          <div class="skill-item">
+            <div class="skill-info"><span>JavaScript</span><span>40%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--target-width:40%"></div>
+            </div>
+          </div>
 
-      <!-- Certificates -->
- <section id="certificates" class="certificates show">
-  <div class="container">
-    <h2 class="section-title">Certificates</h2>
-    <div class="certificates-grid">
-      
-      <!-- Certificate Card -->
-      <div class="certificate-card"> 
-        <div class="certificate-image">
-          <img src="./index_files/Certificate1.png" alt="Certificate 1" onclick="openModal(this)">
-        </div>
-        <div class="certificate-info">
-          <h3>"The Hitchhiker's Guide To The Tech Industry: Freelance, Employment, And Entrepreneurship</h3>
-          <p>PSITS 2023</p>
-        </div>
-      </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>PHP</span><span>70%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--target-width:70%"></div>
+            </div>
+          </div>
 
-      <!-- Certificate Card -->
-      <div class="certificate-card">
-        <div class="certificate-image">
-          <img src="./index_files/Certificate2.png" alt="Certificate 2" onclick="openModal(this)">
-        </div>
-        <div class="certificate-info">
-          <h3>"Mugna: Insider Tech"</h3>
-          <p>PSITS 2023</p>
-        </div>
-      </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>MySQL</span><span>65%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--target-width:65%"></div>
+            </div>
+          </div>
 
-       <div class="certificate-card">
-        <div class="certificate-image">
-          <img src="./index_files/Certificate3.png" alt="Certificate 2" onclick="openModal(this)">
-        </div>
-        <div class="certificate-info">
-          <h3>Revolutionizing Education With AI</h3>
-          <p>PSITS 2023</p>
-        </div>
-      </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Laravel</span><span>50%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--target-width:50%"></div>
+            </div>
+          </div>
 
-       <div class="certificate-card">
-        <div class="certificate-image">
-          <img src="./index_files/Certificate4.png" alt="Certificate 2" onclick="openModal(this)">
-        </div>
-        <div class="certificate-info">
-          <h3>"The Journey to Success: A student's path to CEO and Beyond"</h3>
-          <p>PSITS 2023</p>
+          <!-- Soft Skills -->
+          <h3 class="skills-title" style="margin-top: 30px;">Soft Skills</h3>
+
+          <div class="skill-item">
+            <div class="skill-info"><span>Problem-Solving</span><span>80%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--target-width:80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info"><span>Communication &amp; Teamwork</span><span>95%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--target-width:95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info"><span>Adaptability</span><span>90%</span></div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="--target-width:90%"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="seminars" class="seminars show">
-  <div class="container">
-    <h2 class="section-title">Seminars &amp; Trainings Attended</h2>
-    <div class="seminar-grid">
-
-      <!-- Seminar Photo -->
-      <div class="seminar-photo">
-        <img src="./index_files/IMG_2477.JPG" alt="Seminar 1" onclick="openModal(this)">
-      </div>
-
-      <div class="seminar-photo">
-        <img src="./index_files/IMG_2478.JPG" alt="Seminar 2" onclick="openModal(this)">
-      </div>
-
-      <div class="seminar-photo">
-        <img src="./index_files/IMG_2479.JPG" alt="Seminar 3" onclick="openModal(this)">
-      </div>
-
-      <div class="seminar-photo">
-        <img src="./index_files/Picture1.jpg" alt="Seminar 4" onclick="openModal(this)">
-      </div>
-
-      <div class="seminar-photo">
-        <img src="./index_files/Picture2.jpg" alt="Seminar 5" onclick="openModal(this)">
-      </div>
-
-      <div class="seminar-photo">
-        <img src="./index_files/Picture3.jpg" alt="Seminar 6" onclick="openModal(this)">
+  <!-- Projects -->
+  <section id="projects" class="projects show">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-subtitle">A showcase of my recent work and development projects</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./index_files/logotwd.png" alt="Tupi Water District Queuing System">
+            <div class="project-overlay">
+              <a href="http://localhost:3000/TWDPILAfinal4-3-25/index.php" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Tupi Water District Queuing System</h3>
+            <p>A fully responsive Queuing System platform prioritizing PWD/Pregnant customers with efficient queue management.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./index_files/Logistics.jpeg" alt="Courier Management System">
+            <div class="project-overlay">
+              <a href="http://localhost:3000/courier/login.php" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Courier Management System</h3>
+            <p>A responsive web application for Parcel Tracker system. Track Your Parcel Anytime, Anywhere!</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Bootstrap</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="./index_files/photo-1551288049-bebda4e38f71" alt="Product Management Dashboard">
+            <div class="project-overlay">
+              <a href="http://localhost:3000/Index.php#" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Product Management Dashboard</h3>
+            <p>A dashboard for managing product inventory, sales analytics, and customer data with interactive charts.</p>
+            <div class="project-tags">
+              <span class="project-tag">Vue.js</span>
+              <span class="project-tag">Firebase</span>
+              <span class="project-tag">Chart.js</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <!-- Certificates -->
+  <section id="certificates" class="certificates show">
+    <div class="container">
+      <h2 class="section-title">Certificates</h2>
+      <p class="section-subtitle">Professional certifications and achievements</p>
+      <div class="certificates-grid">
+        <div class="certificate-card">
+          <div class="certificate-image">
+            <img src="./index_files/Certificate1.png" alt="Certificate 1" onclick="openModal(this)">
+          </div>
+          <div class="certificate-info">
+            <h3>The Hitchhiker's Guide To The Tech Industry</h3>
+            <p>PSITS 2023 - Freelance, Employment, and Entrepreneurship</p>
+          </div>
+        </div>
 
-<!-- Modal -->
-<div id="imageModal" class="modal" onclick="closeModal()">
-  <span class="close">×</span>
-  <img class="modal-content" id="modalImage">
-</div>
+        <div class="certificate-card">
+          <div class="certificate-image">
+            <img src="./index_files/Certificate2.png" alt="Certificate 2" onclick="openModal(this)">
+          </div>
+          <div class="certificate-info">
+            <h3>Mugna: Insider Tech</h3>
+            <p>PSITS 2023</p>
+          </div>
+        </div>
 
+        <div class="certificate-card">
+          <div class="certificate-image">
+            <img src="./index_files/Certificate3.png" alt="Certificate 3" onclick="openModal(this)">
+          </div>
+          <div class="certificate-info">
+            <h3>Revolutionizing Education With AI</h3>
+            <p>PSITS 2023</p>
+          </div>
+        </div>
 
+        <div class="certificate-card">
+          <div class="certificate-image">
+            <img src="./index_files/Certificate4.png" alt="Certificate 4" onclick="openModal(this)">
+          </div>
+          <div class="certificate-info">
+            <h3>The Journey to Success: A student's path to CEO and Beyond</h3>
+            <p>PSITS 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seminars -->
+  <section id="seminars" class="seminars show">
+    <div class="container">
+      <h2 class="section-title">Seminars &amp; Trainings Attended</h2>
+      <p class="section-subtitle">Continuous learning and professional development</p>
+      <div class="seminar-grid">
+        <div class="seminar-photo">
+          <img src="./index_files/IMG_2477.JPG" alt="Seminar 1" onclick="openModal(this)">
+        </div>
+        <div class="seminar-photo">
+          <img src="./index_files/IMG_2478.JPG" alt="Seminar 2" onclick="openModal(this)">
+        </div>
+        <div class="seminar-photo">
+          <img src="./index_files/IMG_2479.JPG" alt="Seminar 3" onclick="openModal(this)">
+        </div>
+        <div class="seminar-photo">
+          <img src="./index_files/Picture1.jpg" alt="Seminar 4" onclick="openModal(this)">
+        </div>
+        <div class="seminar-photo">
+          <img src="./index_files/Picture2.jpg" alt="Seminar 5" onclick="openModal(this)">
+        </div>
+        <div class="seminar-photo">
+          <img src="./index_files/Picture3.jpg" alt="Seminar 6" onclick="openModal(this)">
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Resume -->
-  <section id="Resume" class="Resume show">
-    
-  <div class="container">
-    <h2 class="section-title">RESUME</h2>
-    <div class="Resume-content">
-      
-      <!-- Photo -->
-      <div class="Resume-photo">
-        <img src="./index_files/ISAGANI RESUME.png" alt="Isagani Genterola" class="Resume-photo">
+  <section id="resume" class="resume show">
+    <div class="container">
+      <h2 class="section-title">Resume</h2>
+      <p class="section-subtitle">My professional experience and qualifications</p>
+      <div class="resume-content">
+        <div class="resume-photo">
+          <img src="./index_files/ISAGANI RESUME.png" alt="Isagani Genterola Resume">
+        </div>
+        <a href="http://localhost:3000/Image/ISAGANI%20RESUME.pdf" download="" class="btn">Download Resume (PDF)</a>
       </div>
     </div>
-    <a href="./index_files/ISAGANI RESUME.pdf" download="" class="btn">Download Resume</a>
-  </div>
-</section>
+  </section>
 
-
-
-<!-- Tech Stack -->
-<section id="techstack" class="tech-stack show">
-  <div class="container">
-    <h2 class="section-title">Tech Stack</h2>
-    <div class="tech-grid">
-      <div class="tech-item"><img src="./index_files/html5-original.svg" alt="HTML"><p>HTML5</p></div>
-      <div class="tech-item"><img src="./index_files/css3-original.svg" alt="CSS"><p>CSS3</p></div>
-      <div class="tech-item"><img src="./index_files/javascript-original.svg" alt="JavaScript"><p>JavaScript</p></div>
-      <div class="tech-item"><img src="./index_files/php-original.svg" alt="PHP"><p>PHP</p></div>
-      <div class="tech-item"><img src="./index_files/mysql-original.svg" alt="MySQL"><p>MySQL</p></div>
-      <div class="tech-item"><img src="./index_files/logomark.min.svg" alt="Laravel"><p>Laravel</p></div>
-      <div class="tech-item"><img src="./index_files/bootstrap-original.svg" alt="Bootstrap"><p>Bootstrap</p></div>
-      <div class="tech-item"><img src="./index_files/github-original.svg" alt="GitHub"><p>GitHub</p></div>
+  <!-- Tech Stack -->
+  <section id="techstack" class="tech-stack show">
+    <div class="container">
+      <h2 class="section-title">Tech Stack</h2>
+      <p class="section-subtitle">Technologies and tools I work with</p>
+      <div class="tech-grid">
+        <div class="tech-item"><img src="./index_files/html5-original.svg" alt="HTML"><p>HTML5</p></div>
+        <div class="tech-item"><img src="./index_files/css3-original.svg" alt="CSS"><p>CSS3</p></div>
+        <div class="tech-item"><img src="./index_files/javascript-original.svg" alt="JavaScript"><p>JavaScript</p></div>
+        <div class="tech-item"><img src="./index_files/php-original.svg" alt="PHP"><p>PHP</p></div>
+        <div class="tech-item"><img src="./index_files/mysql-original.svg" alt="MySQL"><p>MySQL</p></div>
+        <div class="tech-item"><img src="./index_files/logomark.min.svg" alt="Laravel"><p>Laravel</p></div>
+        <div class="tech-item"><img src="./index_files/bootstrap-original.svg" alt="Bootstrap"><p>Bootstrap</p></div>
+        <div class="tech-item"><img src="./index_files/github-original.svg" alt="GitHub"><p>GitHub</p></div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- Footer -->
   <footer>
     <div class="container">
-      <div class="social-links">
-      <a href="https://www.facebook.com/saganigenterola" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://www.instagram.com/_saga.ni?igsh=dWYxYmFpNmQwNnRj&amp;utm_source=qr" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://genterola59@gmail.com/" class="social-link" target="_blank"><i class="fab fa-google"></i></a>
-      <a href="https://github.com/genterola59-hub" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://twitter.com/" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
-    </div>
-      <p>© 2025 Isagani Genterola. All Rights Reserved.</p>
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Isagani Genterola</h3>
+          <p>Full-Stack Developer specializing in creating functional, user-friendly web applications with modern technologies and best practices.</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/saganigenterola" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/_saga.ni" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:genterola59@gmail.com" class="social-link" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/genterola59-hub" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="http://localhost:3000/Index.php#" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="http://localhost:3000/Index.php#home">Home</a></li>
+            <li><a href="http://localhost:3000/Index.php#about">About</a></li>
+            <li><a href="http://localhost:3000/Index.php#projects">Projects</a></li>
+            <li><a href="http://localhost:3000/Index.php#certificates">Certificates</a></li>
+            <li><a href="http://localhost:3000/Index.php#resume">Resume</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="http://localhost:3000/Index.php#">Web Development</a></li>
+            <li><a href="http://localhost:3000/Index.php#">UI/UX Design</a></li>
+            <li><a href="http://localhost:3000/Index.php#">Database Design</a></li>
+            <li><a href="http://localhost:3000/Index.php#">System Maintenance</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2025 Isagani Genterola. All Rights Reserved.</p>
+      </div>
     </div>
   </footer>
+
+  <!-- Modal -->
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close">×</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+
   <script>
     // Smooth scroll
-    document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
-      anchor.addEventListener('click',function(e){
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
         e.preventDefault();
-        const target=document.querySelector(this.getAttribute('href'));
-        if(target){window.scrollTo({top:target.offsetTop-80,behavior:'smooth'})}
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          window.scrollTo({
+            top: target.offsetTop - 80,
+            behavior: 'smooth'
+          });
+          
+          // Update active nav link
+          document.querySelectorAll('.nav-links a').forEach(link => {
+            link.classList.remove('active');
+          });
+          this.classList.add('active');
+        }
       });
     });
 
     // Mobile nav toggle
-    const toggle=document.getElementById('menu-toggle');
-    const mobileNav=document.getElementById('mobile-nav');
-    toggle.addEventListener('click',()=>{
+    const toggle = document.getElementById('menu-toggle');
+    const mobileNav = document.getElementById('mobile-nav');
+    toggle.addEventListener('click', () => {
       toggle.classList.toggle('active');
       mobileNav.classList.toggle('show');
     });
 
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('.nav-links.mobile a').forEach(link => {
+      link.addEventListener('click', () => {
+        toggle.classList.remove('active');
+        mobileNav.classList.remove('show');
+      });
+    });
+
+    // Image modal functionality
     function openModal(imgElement) {
-  var modal = document.getElementById("imageModal");
-  var modalImg = document.getElementById("modalImage");
-  modal.style.display = "block";
-  modalImg.src = imgElement.src;
-}
-
-function closeModal() {
-  document.getElementById("imageModal").style.display = "none";
-}
-
-// Reveal on scroll
-const sections = document.querySelectorAll("section");
-window.addEventListener("scroll", () => {
-  sections.forEach(sec => {
-    const rect = sec.getBoundingClientRect();
-    if (rect.top < window.innerHeight - 100) {
-      sec.classList.add("show");
+      var modal = document.getElementById("imageModal");
+      var modalImg = document.getElementById("modalImage");
+      modal.style.display = "block";
+      modalImg.src = imgElement.src;
     }
-  });
-});
 
+    function closeModal() {
+      document.getElementById("imageModal").style.display = "none";
+    }
+
+    // Close modal when clicking the close button
+    document.querySelector('.close').addEventListener('click', closeModal);
+
+    // Header scroll effect
+    window.addEventListener('scroll', function() {
+      const header = document.getElementById('header');
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // Reveal on scroll
+    const sections = document.querySelectorAll("section");
+    window.addEventListener("scroll", () => {
+      sections.forEach(sec => {
+        const rect = sec.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+          sec.classList.add("show");
+        }
+      });
+    });
+
+    // Set active nav link based on scroll position
+    window.addEventListener('scroll', function() {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (scrollY >= (sectionTop - 100)) {
+          current = section.getAttribute('id');
+        }
+      });
+      
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+
+    // Initialize animations on page load
+    window.addEventListener('load', function() {
+      sections.forEach(sec => {
+        const rect = sec.getBoundingClientRect();
+        if (rect.top < window.innerHeight) {
+          sec.classList.add("show");
+        }
+      });
+    });
   </script>
+
 </body></html>
